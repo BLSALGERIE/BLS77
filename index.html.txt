@@ -1,0 +1,539 @@
+<html lang="en"><head>
+<style>body{font-size:100%;}</style><style>/*! CSS Used from: https://algeria.blsspainvisa.com/css/style.css */
+body{margin:0px;padding:0px;font-family:Verdana;font-size:13px;color:#000;overflow-y:scroll;font-weight:normal;}
+article,footer,header,nav,section,div{margin:0px;padding:0px;float:left;box-sizing:border-box;}
+h1,h3,h4,h5,ul,li,a,span,p,input{margin:0px;padding:0px;float:left;box-sizing:border-box;}
+a{text-decoration:none;}
+h1{font-size:30px;}
+h3{font-size:20px;}
+h4{font-size:16px;}
+h5{font-size:14px;}
+img{display:table;margin:0 auto;}
+.lineheightExtra{line-height:24px;}
+.fontBold{font-weight:bold;}
+.fontweightNone{font-weight:normal;}
+.floatNone{float:none;}
+.posRelative{position:relative;}
+.menuIcon{display:none;}
+.font11{font-size:11px;}
+.overFlowScroll{height:150px;overflow-y:scroll;}
+.overFlowScroll1{height:350px;overflow-y:scroll;}
+.overFlowScroll2{height:188px;overflow-y:scroll;}
+.borderBottom{border-bottom:solid 1px #ccc;}
+.borderRight{border-right:solid 1px #ccc;}
+.borderAll{border:solid 1px #ddd;}
+.pull_left{float:left!important;}
+.pull_right{float:right!important;}
+.alignCenter{text-align:center!important;}
+.alignJustify{text-align:justify!important;}
+.marginRight{margin-right:10px;}
+.marginLeft{margin-left:10px;}
+.marginTop{margin-top:10px;}
+.marginBottom{margin-bottom:10px;}
+.marginNone{margin:0px!important;}
+.marginBottomNone{margin-bottom:0px!important;}
+.paddingRight{padding-right:10px;}
+.paddingLeft{padding-left:10px;}
+.paddingTop{padding-top:10px;}
+.paddingBottom{padding-bottom:10px;}
+.paddingNone{padding:0px!important;}
+.paddingRightNone{padding-right:0px!important;}
+.paddingTopNone{padding-top:0px!important;}
+.paddingBottomNone{padding-bottom:0px!important;}
+.paddingInBox{padding:10px;box-sizing:border-box;}
+.paddingInBoxExtra{padding:20px;box-sizing:border-box;}
+.padding-sm{padding:5px;}
+.btn{border-radius:5px;padding:5px 10px;border:none;font-family:Verdana;font-size:13px;margin-bottom:10px;font-weight:normal;box-sizing:border-box;line-height:20px;}
+.primary-btn{background:#333;color:#fff;}
+.primary-btn:hover{background-color:#3296cb;color:#fff;}
+.secondry-btn{background:#3296cb;color:#fff;}
+.secondry-btn:hover{background-color:#333;color:#fff;}
+.white{color:#fff;}
+.blue{color:#1c88c8;}
+.black{color:#000;}
+.baseColor{color:#bf8f2c;}
+.red{color:#f00;}
+p{line-height:20px;margin:0px 0px 15px 0px;padding:0px;width:100%;text-align:justify;}
+.link{color:#fff;font-size:11px;padding:5px 40px 5px 25px;box-sizing:border-box;text-decoration:none;position:relative;}
+.link:hover{color:#fff;}
+.link:before{position:absolute;left:0px;top:5px;content:">>";}
+.label{line-height:32px;}
+.form-control-input{width:100%;padding:5px 10px;box-sizing:border-box;border:none;margin-bottom:10px;font-family:Verdana;font-size:13px;line-height:20px;background:#e9e9e9;}
+.col-sm-2{width:20%;}
+.col-sm-8{width:80%;}
+.row{width:100%;}
+.container{margin:0 auto;float:none;display:table;}
+.wrap{width:940px;margin:0px auto;display:table;float:none;}
+.headerSection{background:#f4f4f4;background:-moz-linear-gradient(top, #f4f4f4 0%, #ededed 99%);background:-webkit-linear-gradient(top, #f4f4f4 0%,#ededed 99%);background:linear-gradient(to bottom, #f4f4f4 0%,#ededed 99%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#ededed',GradientType=0 );position:fixed;z-index:1000;top:0px;border-bottom:solid 2px #ccc;}
+.logoSection{padding:8px 8px 8px 0px;width:100px;}
+.navigationPanel{width:100%;}
+.navigationPanel a:first-child{border:none;}
+.navigationPanel a{padding:10px 6px;font-size:12px;border-left:solid 1px #ccc;color:#000;box-sizing:border-box;text-align:center;text-transform:uppercase;}
+.navigationPanel a:hover{background:#fff;color:#000;}
+.bannerSection{height:250px;background:url(https://algeria.blsspainvisa.com/images/spain-bg.jpg) center -70px/940px auto scroll no-repeat #fff;margin-top:107px;}
+.visaProcessPanel{border-top:solid 7px #bf8f2c;font-family:Verdana;padding-bottom:10px;position:relative;margin-top:0px;}
+.title{background:#333;color:#fff;padding:5px 10px;font-size:20px;float:none;margin:0px auto 1px;width:45%;text-align:center;position:relative;line-height:24px;}
+.title:before{content:"";position:absolute;top:0px;left:-20px;border-style:solid;border-width:34px 0px 0px 20px;border-color:#333 #333 transparent transparent;}
+.title:after{content:"";position:absolute;top:0px;right:-20px;border-style:solid;border-width:34px 20px 0px 0px;border-color:#333 transparent transparent #333;}
+.visaProcessItemBox{border:solid 10px #fff;box-sizing:border-box;width:26.33%;padding:32px 5px 32px;color:#fff;background:#96000f;margin:0px 3.5%;border-radius:25px;box-shadow:0px 0px 1px #000;position:relative;}
+.visaProcessItemBox:hover{background:#828282;color:#fff;}
+.step{background:#bf8f2c;border-radius:100%;color:#fff;font-size:14px;padding:5px;line-height:50px;text-align:center;width:60px;height:60px;left:0px;right:0px;margin:0 auto;position:absolute;top:-35px;}
+.aboutBG{padding:10px 0px 0px;box-sizing:border-box;}
+.footerSection{bottom:0;padding:0px 0px 0px;color:#fff;}
+.footerBG{background:#666666;background:-moz-linear-gradient(top, #666666 0%, #333333 100%);background:-webkit-linear-gradient(top, #666666 0%, #333333 100%);background:linear-gradient(to bottom, #666666 0%, #333333 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#333333', GradientType=0 );}
+.boxSet{border:solid 1px #eadab9;background:#edddbc;padding:10px;min-height:250px;box-sizing:border-box;width:32%;margin:0px 2% 10px 0px;}
+.boxSet:last-child{margin:0px;}
+.boxSetLink{min-height:30px;}
+.points{width:100%;}
+.points ul{list-style:outside;width:98%;margin:0px 0px 15px 2%;line-height:20px;}
+.points ul li{width:100%;padding:2px;box-sizing:border-box;}
+.popupBG{position:fixed;left:0px;right:0px;bottom:0px;top:0px;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:1000;font-family:Arial;}
+.popup{position:fixed;left:0px;right:0px;bottom:0px;top:0px;width:600px;border-radius:10px;height:350px;background:#fff;margin:auto;z-index:1001;}
+.popupCloseIcon{position:absolute;right:-10px;top:-10px;width:30px;height:30px;cursor:pointer;display:block;background:#f00;border-radius:100%;color:#fff;font-weight:bold;line-height:30px;text-align:center;}
+.visaWelcomeBox{padding:10px 20px 120px;color:#fff;font-size:12px;line-height:17px;margin:0 auto;display:table;float:none;width:100%;background:#00305d;text-align:center;}
+.stepBox{width:90%;margin-top:-90px;}
+.marquee-parent{position:relative;width:100%;overflow:hidden;height:180px;}
+/*! CSS Used from: https://algeria.blsspainvisa.com/css/mobile-responsive.css */
+@media all and (max-width:767px){
+.wrap{width:100%;display:block;}
+.col-sm-2,.col-sm-8{width:100%;}
+.paddingLeft,.paddingRight{box-sizing:border-box;}
+.headerSection .pull_right.paddingInBox{padding:18px 5px 18px 0px;}
+.menuIcon{position:absolute;left:10px;top:20px;padding:2px;box-sizing:border-box;display:block;background:#fff;border-radius:2px;cursor:pointer;}
+.logoSection{margin-left:40px;}
+.navigationPanel:after{position:absolute;left:15px;top:-20px;border:solid 10px;border-color:transparent transparent #000 transparent;content:"";}
+.navigationPanel{display:none;position:absolute;top:66px;background:rgba(0,0,0,0.9);left:0px;}
+.navigationPanel a:nth-child(1){background:#ccc;}
+.navigationPanel a{padding:15px 25px;border-left:0px;border-bottom:solid 1px #666;width:100%;text-align:left;padding:10px 10px;color:#fff;}
+.navigationPanel a:nth-child(3){display:none;}
+.title{width:80%;margin-bottom:10px;font-size:20px;padding:13px 10px;}
+.visaProcessItemBox{width:100%;padding:10px 20px 20px;}
+.aboutBG{padding:10px;box-sizing:border-box;}
+.aboutBG h5{font-size:13px;line-height:20px;}
+.boxSet{width:98%;}
+.points ul li{text-align:justify;width:97%;margin:0px 0px 5px 3%;}
+.paddingLeft.marginLeft{margin-left:0px;}
+.points ul li{font-size:11px;line-height:18px;}
+.link{font-size:11px;}
+.footerSection{font-size:11px;line-height:18px;padding-top:10px;}
+.form-control-input{width:100%!important;}
+.popup{width:90%!important;height:70%!important;overflow-y:scroll;overflow-x:hidden;}
+}
+/*! CSS Used from: https://algeria.blsspainvisa.com/css/flexdropdown.css */
+.flexdropdownmenu:before{content:"";position:absolute;top:-20px;left:20%;border:solid 10px;border-color:transparent transparent #666 transparent;}
+.flexdropdownmenu,.flexdropdownmenu ul{margin:0;padding:0;position:absolute;left:0;top:0;list-style-type:none;border:1px solid #333;border-bottom-width:0;visibility:hidden;display:none;width:300px;box-sizing:border-box;}
+.flexdropdownmenu li{position:relative;width:100%;}
+.flexdropdownmenu li a{display:block;width:100%;box-sizing:border-box;color:black;background:rgba(0,0,0,0.8);border-bottom:1px solid #666;text-decoration:none;padding:15px;color:#fff;position:relative;}
+.flexdropdownmenu li a:hover:before{content:"";position:absolute;bottom:5px;right:5px;border:solid 5px;border-color:transparent #fff #fff transparent;}
+.flexdropdownmenu li a:hover{background:rgba(0,0,0,0.9);color:#fff;}
+.rightarrowclass{position:absolute;top:6px;right:5px;}
+div.flexoverlay{width:100%;height:100%;left:0;top:0;position:fixed;background:black;-webkit-transform-style:preserve-3d;opacity:0.7;z-index:1000;display:none;}
+/*! CSS Used from: Embedded */
+#mySidenav a{position:fixed;right:-320px;transition:0.3s;padding:15px;width:400px;text-decoration:none;font-size:16px;color:white;border-radius:5px 0 0 5px;margin-top:100px;}
+#mySidenav a:hover{right:0;}
+#request{top:20px;background-color:#bf8f2c;}</style></head><body style="">﻿<meta charset="UTF-8">
+<meta name="description" content="All prospective applicants from Algeria can follow the guidelines here to apply for a Schengen visa while visiting Spain as their main country of destination. Spain Visa to Algeria, Apply Spain Visa from Algeria, Spain Visa Application Centre in Algeria, Spain Visa from Algeria, Algeria Citizen Apply Spain Visa, Spain Visa Application, Spain Visa Application from Algeria, Spain Visa for Algeria Passport Holder, Tourist Visa to Spain from Algeria, Business Visa to Spain from Algeria, Medical Spain Visa from Algeria, Study Spain Visa from Algeria. Schengen Visa, Apply Schengen Visa in Algeria, Apply Schengen Visa from Algeria, Schengen Visa Application Form, Schengen Visa Application Form in Algeria, Schengen Visa Algeria">
+<meta name="keywords" content="Spain Visa to Algeria, Apply Spain Visa from Algeria, Spain Visa Application Centre in Algeria, Spain Visa from Algeria, Algeria Citizen Apply Spain Visa, Spain Visa Application, Spain Visa Application from Algeria, Spain Visa for Algeria Passport Holder, Tourist Visa to Spain from Algeria, Business Visa to Spain from Algeria, Medical Spain Visa from Algeria, Study Spain Visa from Algeria.EEA/EU Spouse Spain Visa from Algeria, Transit Spain Visa from Algeria, Transit for Seamen Spain Visa from Algeria, Conference and Congress Visa, Family or Friend Visit Visa, Entrance to Schengen area with commercial vehicle Visa">
+<meta name="google-site-verification" content="k-AjmBS5LOIvMtHlcUJCjPj8TDwGUTjaE_2pL76ZrCs">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Algeria BLS Spain Visa: Welcome to the Official Website Spain Visa Application Centre in Algeria</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google tag (gtag.js) -->
+
+
+
+
+
+<!-- header section -->
+
+<header class="row headerSection pull_left">
+
+<div class="row paddingInBoxExtra white" style="background:rgba(0,0,0,0.8); position:fixed; bottom:0px;" id="popup">
+<div class="wrap">
+<div class="container">
+<div class="marginRight padding-sm">We use cookies on this site to enhance your user experience, Please <a href="javascript:void(0);" style="float:none;color:#fff; text-decoration:underline"> click here </a>to proceed further.</div>
+<div>
+<a href="cookies.php" target="_blank" class="btn secondry-btn marginRight marginBottomNone">Read more</a></div>
+</div>
+</div>
+</div>
+
+<!-- POP UP -->
+<div class="wrap">
+<div class="row borderBottom">
+<h1 class="logoSection"><a href="index.php"><img src="https://algeria.blsspainvisa.com/images/bls-logo.png" alt="BLS Logo" title="BLS Logo"></a></h1>
+<div class="menuIcon"><img src="https://algeria.blsspainvisa.com/images/mobicon.png" width="20" height="20" alt="mobicon" title="mobicon"></div>
+<div class="pull_right paddingInBox paddingRightNone paddingBottomNone">
+<div class="pull_right padding-sm paddingRightNone paddingTopNone">
+<h3 class="marginRight paddingRight baseColor label">demande de visa pour l'Espagne au Algérie <img src="https://algeria.blsspainvisa.com/images/flag.jpg" class="pull_right marginLeft borderAll" alt="flag" title="flag"></h3>
+<div class="marginLeft paddingLeft lineheightExtra">
+<a href="english/index.php" class="padding-sm"><span class="font11 borderRight paddingRight black">English</span></a>
+<a href="spanish/index.php" class="padding-sm"><span class="font11 borderRight paddingRight black">Español</span></a>
+<a href="#" class=" padding-sm"><span class="font11 borderRight paddingRight black">français</span></a>
+<a href="arabic/index.php" class=" padding-sm"><span class="font11 black">عربى</span></a>
+</div>
+</div>
+</div>
+</div>
+
+<nav class="navigationPanel">
+<a href="index.php"><img src="https://algeria.blsspainvisa.com/images/home.png" width="18" height="18" alt="home" title="home"></a>
+<a href="#" data-flexmenu="flexmenu1">Type de visa</a>
+<a href="#" data-flexmenu="flexmenu3">Réservez rendez-vous</a>
+<a href="#" data-flexmenu="flexmenu2" class="">informations générales</a>
+<a href="https://algeria.blsspainglobal.com/DZA/bls/VisaApplicationStatus" target="_blank">Suivez Votre Demande</a>
+<a href="#" data-flexmenu="flexmenu4" style="text-transform:none;">FAQs</a>
+<a href="contact.php">Contactez nous</a>
+<a href="mobile-biometric.php" title="Appliquer à partir de votre domicile"><strong class="blink"><span>Appliquer...</span></strong></a>
+<!--HTML for Flex Drop Down Menu 1-->
+
+<!--HTML for Flex Drop Down Menu 1-->
+
+<!--HTML for Flex Drop Down Menu 4-->
+
+
+<!--HTML for Flex Drop Down Menu 3-->
+
+
+
+<!--HTML for Flex Drop Down Menu 3-->
+</nav>
+
+</div>
+</header>
+<!-- /header section -->
+
+<!-- banner section -->
+<section class="row bannerSection">
+<div class="wrap posRelative">
+</div>
+</section>
+<!-- banner section -->
+
+<!-- body Panel -->
+<div class="row bodypanel">
+<article class="row visaProcessPanel">
+<div class="wrap">
+<h3 class="title fontweightNone">PROCESSUS D'APPLICATION VISA</h3>
+
+<div class="visaWelcomeBox">
+Bienvenue sur le site du Centre de Demande de Visa en Espagne. Ce site fournit des informations sur la façon de demander un visa Schengen pour se rendre en Espagne en tant que votre principal pays de destination. Les consignes figurant sur ce site sont destinées à vous aider à préparer vos documents aussi précisément que possible. Cela réduira les chances que votre demande soit retardée ou rejetée en raison d'une soumission incomplète ou erronée de documents.
+</div>
+
+<div class="container stepBox">
+<a class="visaProcessItemBox" href="visa_type.php">
+<div class="step">Étape 1</div>
+<div class="row"><img src="https://algeria.blsspainvisa.com/images/visaProcess1.png" width="50" height="50" title="Visa Process" alt="Visa Process"></div>
+<h4 class="row alignCenter paddingTop fontweightNone">Connaissez vos besoins De Visa</h4>
+</a>
+<a class="visaProcessItemBox" href="appointment.php">
+<div class="step">Étape 2</div>
+<div class="row"><img src="https://algeria.blsspainvisa.com/images/visaProcess2.png" width="50" height="50" title="Visa Process" alt="Visa Process"></div>
+<h4 class="row alignCenter paddingTop fontweightNone">Réserver votre rendez-vous</h4>
+</a>
+<a class="visaProcessItemBox" href="contact.php">
+<div class="step">Étape 3</div>
+<div class="row"><img src="https://algeria.blsspainvisa.com/images/visaProcess3.png" width="50" height="50" title="Visa Process" alt="Visa Process"></div>
+<h4 class="row alignCenter paddingTop fontweightNone">Visitez notre centre</h4>
+</a> </div>
+</div>
+</article>
+
+<div class="popup" id="IDBodyPanel" style="display: none;">
+<div class="popupCloseIcon">X</div>
+<div class="row paddingInBoxExtra alignJustify overFlowScroll1 points">
+<div class="row points">
+<h4 class="row alignCenter marginBottom">Note Importante</h4>
+<!--<p><strong>Cher(e) candidat(e), nous vous informons que les rendez-vous seront ouverts le 3 Septembre à 09 heures.</strong></p>-->
+
+<p><strong>Nouveau formulaire</strong></p>
+
+<p>Nous informons nos chers (e) demandeurs qu’un nouveau formulaire pour les catégories de visa « C » et « D » est disponible sur notre site web en version téléchargeable est applicable à partir du 07/02/2024.</p>
+<ul>
+<li>Veuillez noter que le service de remplissage du formulaire est disponible au centre</li>
+</ul>
+
+
+<p>Nous informons notre aimable clientèle qu’il est obligatoire de présenter à notre agent du comptoir lors de votre dépôt l’original des documents professionnels suivants:</p>
+
+<ul style="list-style-type:none;">
+    <li>- Registre de commerce</li>
+    <li>- C20</li>
+    <li>- Extrait de rôle</li>
+    <li>- Mise à jour CASNOS et CNAS</li>
+    <li>- Certificat d’existence</li>
+    <li>- Agrément pour la profession libérale, décision d’installation, attestation exploitant agricole/carte agriculteur</li>
+    <li>- Pour les familles, il est obligatoire de présenter original du livret de famille accompagner d’une copie et d’une fiche familiale</li>
+</ul>
+<p>La copie des documents ci-dessus est obligatoire lors de votre dépôt ainsi qu’une traduction en français/Espagnole pour tout document.</p>
+<p>Cette instruction sera appliquée à partir du 09 Avril 2023, cette mesure prendra effet au niveau du centre d’Oran à partir du 21 Mai 2023.</p>
+
+<h4 class="row alignCenter marginBottom">INFROMATION IMPORTANTES</h4>
+
+<p><strong>Note Importante :</strong><br>
+Les clients qui dépendent du centre de demande de Visa d’<strong>Oran</strong> et qui ont pris leurs rendez-vous sur notre site web pour déposer en famille, ils sont dans l’obligation de prendre un rendez-vous pour leurs enfants mineurs de moins de 12 ans et cela à partir du 23 mars 2023.</p>
+
+<p>Nous vous rappelons qu’il est possible de prendre un rendez-vous familiale jusqu’à 08 personnes sur notre site internet.</p>
+<p>Cette note ne concerne pas les parents ayant un visa Espagnol de plus d’une année en cours de validité, ils peuvent toujours déposer une demande de visa pour leurs enfants de moins de 12 ans sans rendez-vous.</p>
+
+<p><strong>Avis</strong><br>
+Les frais de service de demande de visa pour l'Espagne seront révisés à compter du 5 mars 2023, conformément aux instructions du consulat du Royaume d'Espagne à Alger et à Oran. Les frais de service révisés sont de 2 467 DZD.<br>
+Les candidats dont le dépôt de demande de visa est effective à partir du 5 mars 2023 devront payer le montant différentiel de 212 DZD, s'ils ont payé l'ancien droit de </p>
+
+<p><strong>Note:</strong><br>
+Les enfants mineurs de moins de 12 ans qui dépondent de la juridiction d’Alger peuvent déposer une demande de Visa sans rendez-vous lorsqu’ils déposent en compagnie de leurs parents qui eux doivent avoir un rendez-vous valide, ou lorsque leurs parents ont un Visa Espagnole en cours de validité.</p>
+
+<p><strong>Nous portons à l’attention de notre aimable clientèle que les prix des services optionnels seront actualisés à partir du 07/02/2023 comme suit :</strong></p>
+<ul>
+    <li>Courrier dans la Wilaya Alger/Oran: 1155 DA</li>
+    <li>Courrier en dehors de la Wilaya Alger/Oran: 1732 DA</li>
+    <li>Photos : 330 DA</li>
+    <li>Photocopie : 06 DA/page</li>
+    <li>SMS : 220 DA</li>
+    <li>Salon premium : 4620 DA</li>
+    <li>Biométrie mobile : 22 220 DA</li>
+</ul>
+
+<p><strong>Nouvelle procédure du système de prise de rendez-vous</strong></p>
+<p>Le centre de demande de visa pour le Royaume d’Espagne à Alger et à Oran informe les demandeurs qu’à partir du 10 janvier 2023 une nouvelle disposition de dépôt de visa pour toutes les catégories sera mis en place pour la prise de rendez-vous.</p>
+<p>Après avoir payé les frais de service en ligne et confirmé le rendez-vous il est obligatoire que le demandeur de visa effectue le paiement exclusivement avec sa propre carte <strong>CIB</strong> ou <strong>Edahabia</strong> pour effectuer le paiement en ligne et doit présenter la carte le jour de son rendez-vous.</p>
+<p>Dans le cas où le demandeur n’a pas respecté cette instruction (vous payez avec une carte d’une tierce personne), votre rendez-vous sera considéré annuler et vous ne serez pas accepté le jour de dépôt au centre de demandes de visa pour l’Espagne.</p>
+ 
+<p><strong>Note:</strong></p>
+<ul style="list-style:decimal;">
+<li>Il est uniquement permis aux familles (Mari, femme, enfants mineurs, Père et Mère) de payer avec une seule carte CIB ou Edahabia dont le demandeur doit présenter <strong>la carte originale</strong> lors du dépôt.</li>
+<li>Les frais payés par une carte d’une tierce personne ne sont pas remboursable</li>
+</ul>
+
+<p>Nous informons nos clients dépendant du consulat général d'Espagne à ORAN qu'à partir du jeudi 13 octobre 2022, les rendez-vous pour demander un visa pour le royaume d’Espagne, se feront sur notre site Algérie.blsspainvisa.com.</p>
+
+<p>Une autorisation parentale des deux parents signés à la mairie est obligatoire pour le dépôt de demande de visa pour un mineur seul ou accompagné par l’un des parents. Dans le cas où il dépose seul, il doit présenter une lettre expliquant les raisons de l’absence des parents dans la procédure.</p>
+
+<p>Nous portons à la connaissance de notre aimable clientèle qu’il est strictement interdit de passer par une tierce personne pour prendre un rendez-vous de dépôt de visa pour l’Espagne.</p>
+
+<p>Nous vous rappelons que les rendez-vous sont gratuit ! nous vous invitons a créé un compte et prendre votre rendez-vous vous-même.</p>
+
+<p>Les candidats utilisant un faux identifiant de courrier électronique, un courrier électronique temporaire ou des courriers électroniques qui ne leur appartiennent pas ne pourront pas entrer dans le centre des visas et ne pourront pas soumettre leur demande. Si un candidat fournit un faux numéro de téléphone ou un numéro de téléphone d'agence, il ne pourra pas soumettre de candidature. Veuillez noter que le processus de rendez-vous est gratuit.</p>
+
+<p>Nous portant à l’intention de nos chers clients que le module de prise de rendez-vous familiale est strictement réservé aux familles, une fiche familiale vous sera demander le jour de votre dépôt, en cas d’absence de fiche familiale les rendez-vous seront annulé.</p>
+
+<h5 class="row blue">TRAITEMENT DES DEMANDES DE VISAS SCHENGEN</h5>
+<p>Tous les documents d'état civil déposés, tels que la fiche familiale, doivent être en originales accompagnés d'une traduction en français ou en espagnol, tout document falsifié entraînera un refus immédiat et le fraudeur sera notifié à tous les États membres de Schengen</p>
+
+<p>L'assurance voyage est obligatoire pour voyager en Espagne. Pour obtenir votre assurance voyage, veuillez <a href="process.php" class="blue floatNone">cliquer ici</a></p>
+
+<p><strong>Pour plus d'informations, merci de contacter le 021 99 40 60 ou consulter notre site internet.</strong></p>
+</div>
+</div> 
+</div>
+<div class="popupBG" style="display: none;"></div>
+
+<section class="row aboutBG">
+<div class="wrap">
+      
+<div class="row">
+<div class="row"> 
+<div class="boxSet">
+<h4 class="row marginBottom baseColor">Appliquer à partir de votre domicile</h4>
+<div class="row boxSetLink overFlowScroll2 paddingInBox">
+<a href="mobile-biometric.php">
+<h5 class="row marginBottom baseColor fontweightNone alignCenter">Service Biométrique Mobile</h5>
+<div class="row marginBottom"><img src="https://algeria.blsspainvisa.com/images/bio.png" width="220" height="71" alt="bio" title="bio"></div>
+<p class="black">Vous ne pouvez pas vous rendre au centre de demande de visa?<br>
+Recevez votre demande chez vous et à votre convenance</p>
+<p class="marginNone black paddingNone">Réservez maintenant et recevez un rappel dans 1 jour ouvrable</p>
+</a>
+</div>
+</div>
+
+<div class="boxSet">
+<!--<div class="row marginBottom"><a href="https://bls.schengen.europ-assistance.com/fr?ipc=blsalgeria&utm_source=blsalgeria&utm_medium=affiliates" target="_blank"><img src="https://algeria.blsspainvisa.com/images/FRE-Square.png" width="280" alt="French" title="French" /></a></div>-->
+<!--<h4 class="row marginBottom baseColor">Liens utiles</h4>
+<div class="row boxSetLink overFlowScroll paddingInBox">
+<a target="_blank" href="http://www.exteriores.gob.es/Consulados/Argel/es/Paginas/inicio.aspx" class="blue">Consulat général d'Espagne à Alger-Algérie</a><br />
+<a target="_blank" href="http://exteriores.gob.es/Consulados/Argel/es/Paginas/inicio.aspx" class="blue">Consulat général d'Espagne à Oran- Algérie</a>
+</div>-->
+</div>
+
+<div class="boxSet">
+<h4 class="row marginBottom baseColor">Nouvelles et notification</h4>
+<div class="row boxSetLink overFlowScroll paddingInBox">
+
+<div class="row points">
+<p><strong>Note:</strong> <br>
+Les enfants mineurs de moins de 12 ans peuvent déposer une demande de Visa sans rendez-vous lorsqu’ils déposent en compagnie de leurs parents qui eux doivent avoir un rendez-vous valide, ou lorsque leurs parents ont un Visa Espagnole en cours de validité.<br>
+BLS VISA Services a le plaisir de vous annoncer le lancement de notre système amélioré de prise de rendez-vous pour les demandeurs qui font une demande auprès du Consulat du Royaume d'Espagne à Oran à partir du 13 octobre 2022.<br>
+Les rendez-vous ne seront validés que par le paiement en ligne des frais de service applicables. Les demandeurs qui ont obtenu un rendez-vous par le biais du Consulat du Royaume d'Espagne à Oran, leurs rendez-vous resteront valides et ne nécessiteront aucune action. Étape à suivre :</p>
+
+<p><strong>Connectez-vous sur notre site internet https://algeria.blsspainvisa.com/ , le module de prise de rendez -vous apparaît sur votre écran :</strong></p>
+<ul>
+<li>Créez un compte BLS avec vos identifiants (nom, prénom, adresse e-mail, numéro de téléphone)</li>
+<li>Créez un mot de passe : votre mot de passe doit comporter un minimum de 8 et un maximum de 16 caractères avec au moins une lettre majuscule, une lettre minuscule, un chiffre et un des caractères spéciaux suivants : $ @ # $ ! %* ? &amp; (aucun autre caractère spécial n'est autorisé)</li>
+<li>Entrez le code OTP reçu par email puis entrez votre mot de passe qui vous permettra de confirmer votre inscription et connexion à votre compte BLS.</li>
+<li>Un écran apparaîtra vous demandant d'entrer le code de vérification que vous recevrez après avoir entré le CAPTCHA</li>
+<li>Une fois validé, vous devez renseigner vos informations dans le module respectant la juridiction de votre résidence</li>
+<li>Après validation de vos données, vous serez automatiquement redirigé vers la page de paiement en ligne SATIM afin d'introduire les éléments ci-dessous :</li>
+<li>Nom et prénom</li>
+<li>Numéros de carte de paiement CIB/DHAHABIA</li>
+<li>Numéros CVV</li>
+<li>Date d'expiration de la carte de crédit</li>
+<li>Après validation de votre inscription, les détails de votre carte vous seront affichés, puis vous saisirez le mot de passe (code de paiement) qui vous a été remis par la banque avec votre carte bancaire.</li>
+<li>Une fois que vous aurez validé votre paiement en ligne , vous imprimerez votre lettre de rendez-vous.</li>
+</ul>
+
+<p><strong>Veuillez noter que le jour du rendez-vous, au centre BLS, vous devez présenter :</strong></p>
+<ul>
+<li>Votre passeport</li>
+<li>La lettre confirmant votre rendez-vous,</li>
+<li>Le dossier de demande de visa selon votre catégorie de visa avec les pièces justificatives exigées par le Consulat du Royaume d'Espagne à Alger/Oran.</li>
+</ul>
+
+<p><strong>Une information important</strong></p>
+<ul>
+<li>Le rôle de l'agence bancaire ABC est exclusivement de percevoir les frais de service ;</li>
+<li>L'agence bancaire n'est pas responsable de la disponibilité des rendez-vous, ni de la décision d'accorder un visa par le consulat espagnol concernant votre demande de visa.</li>
+<li>Les frais de service payé en ligne son non remboursable et non transférable.</li>
+</ul>
+
+<p><strong>Modification / Non-présentation au rendez-vous :<br>
+ATTENTION:</strong> après avoir pris rendez-vous, vous ne pourrez pas modifier la date de votre rendez-vous, ni être remboursé en cas de non-présentation au rendez-vous prévu, votre reçu ne sera plus valable et vous devrez entamer toute la démarche encore.</p>
+
+<p class="red"><strong>MISE À JOUR IMPORTANTE</strong></p>
+
+<p>Chez BLS International, nous avons toujours apprécié et protégé la vie privée de tous nos partenaires et avec la mise en vigueur effective du règlement général de protection des données de l'Union européenne (GDPR) à partir du 25 mai 2018, BLS INTERNATIONAL a mis à jour sa politique de confidentialité. les dispositions applicables du Règlement général de protection des données de l'Union européenne (RGPD), ainsi que les modifications, le cas échéant.</p>
+
+<p>Ce nouveau règlement vise à unifier les lois actuelles sur la protection des données à caractère personnel dans toute l'UE et à renforcer les droits des résidents européens à protéger leurs informations personnelles. Notre politique de confidentialité implique les détails concernant le traitement des données personnelles ainsi que des motifs légitimes de collecte, de conservation et de protection.</p>
+
+<p>La nouvelle politique de confidentialité s'applique à BLS International et à tous ses associés, filiales et sociétés du groupe à compter du 25 mai 2018.</p>
+
+<p>Si vous avez des questions ou des griefs liés au GDPR, n'hésitez pas à contacter notre responsable de la protection des données par courrier électronique à l'adresse dpo@blsinternational.net"</p>
+
+<p>“Le Consulat d’Espagne informe que la prise des rendez-vous sur le site de BLS est totalement gratuite. Etant donné l’impossibilité de modifier l’information introduite pendant le système de prise de rendez-vous en ligne, nous vous conseillons d’introduire ces données personnellement, sans avoir recours à des intermédiaires.</p>
+</div>
+
+</div>
+<a href="news-notification.php" class="btn primary-btn pull_right marginBottomNone marginTop">Lis tout</a>
+</div>
+</div>
+
+<div class="row">
+<div class="boxSet">
+<h4 class="row marginBottom baseColor">Attractions touristiques de l'Espagne</h4>
+<div class="row boxSetLink">
+<div class="row marginBottom"><img src="https://algeria.blsspainvisa.com/images/tourism.jpg" alt="tourism" title="tourism"></div>
+</div>
+</div>
+
+<div class="boxSet">
+<form action="track_application.php" method="get">
+<h4 class="row marginBottom baseColor">Suivez votre demande en ligne</h4>
+<div class="row boxSetLink">
+<div class="row marginBottom"><img src="https://algeria.blsspainvisa.com/images/track-app.jpg" alt="track app" title="track app"></div>
+<div class=" col-sm-8 paddingRight"><input type="text" name="reference" placeholder="ID d'application" class="form-control-input"></div>
+<div class=" col-sm-2"><input type="submit" class="btn primary-btn pull_right marginBottomNone" value="Track"></div>
+</div>
+
+</form>
+</div>
+
+<div class="boxSet">
+<h4 class="row marginBottom baseColor">Une information important</h4>
+<div class="row boxSetLink">
+<div class="row">
+        <div class="row alignJustify paddinupdwn">
+        <div class="marquee-parent" style="height:195px;">
+        <a href="pdf/website-notice.pdf" class="blue" target="_blank"><span class="marginRight label">Avis important</span><span class="marginRight label"><img src="https://algeria.blsspainvisa.com/images/new.gif" width="30" height="30" alt="new" title="new"></span></a><br>
+        <div class="row font11 alignCenter fontBold">QR Code for BLS Mobile App</div>
+<img src="https://blsspainvisa.com/QRcodeBLS/temp/test.png" height="140" width="140" alt="QR Code">        <!--<a href="pdf/website-notice.pdf" class="blue" target="_blank"><span class="marginRight label">Avis important</span><span class=""><img src="https://algeria.blsspainvisa.com/images/new.gif"/></span></a>-->
+        
+        </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section></div>
+<!-- /body Panel -->
+
+<!-- footer Panel -->
+
+<div id="mySidenav" class="sidenav">
+<a href="mobile-biometric.php" id="request"><img src="https://algeria.blsspainvisa.com/images/icon-app.png" alt="icon" title="icon" style="float:left;"><span style="padding:8px 0 0 15px;">Appliquer à partir de votre domicile</span></a>
+</div>
+<!--<a href="https://blsattestation.com/" target="_blank" id="attestation"><img src="https://algeria.blsspainvisa.com/images/attestationService.gif" alt="attestation Service" title="attestation Service" style="float:left;"></a>-->
+
+<footer class="row footerSection pull_left">
+<div class="wrap paddingInBox boxing footerBG">
+
+<div class="row paddingBottom">
+<a href="about.php" class="link">à propos de nous</a>
+<a href="customer_experience.php" class="link">Suggestions Et Plaintes</a>
+<a href="faq.php" class="link">FAQ</a>
+<a href="security_rules.php" class="link">Règles de sécurité</a>
+</div>
+
+<div class="row white">
+<div class="font11">© BLS International 2024. Tous les droits sont réservés</div>
+<div class="pull_right">
+<a href="privacy-policy.php" class="white font11 floatNone">politique de confidentialité</a> | 
+<a href="cookies.php" class="white font11 floatNone">Politique de cookies</a> | 
+<a href="disclaimer.php" class="white font11 floatNone">Attention</a>
+</div>
+</div>
+</div>
+</footer>
+
+
+<!-- /footer Panel -->
+
+<div class="flexoverlay" style="display: none;"></div><ul id="flexmenu1" class="flexdropdownmenu jqflexmenu" style="z-index: 1000; display: none; visibility: visible;">
+<li><a href="tourism.php">Touristique</a></li>
+<li><a href="business.php">Affaires</a></li>
+<li><a href="family_visit.php">Visite familiale</a></li>
+<li><a href="owners.php">Propriétaires de biens</a></li>
+<li><a href="student.php">Étudiant</a></li>
+<li><a href="sports.php">Sportif / culturel / artistique / scientifique</a></li>
+<li><a href="mission.php">Mission</a></li>
+<li><a href="medicalvisit.php">Visite médicale</a></li>
+<li><a href="transit.php">Transit</a></li>
+</ul><ul id="flexmenu3" class="flexdropdownmenu jqflexmenu" style="z-index: 1000; display: none; visibility: visible;">
+<li style="z-index: 1000;"><a href="#">Pour Le Centre Demande De Visa<img src="https://algeria.blsspainvisa.com/images/arrow.gif" class="rightarrowclass" style="border:0;"></a>
+<ul style="display: none; visibility: visible;">
+<li><a href="https://algeria.blsspainglobal.com">Réservez votre rendez-vous</a></li>
+<li><a href="https://algeria.blsspainglobal.com">Réimpression Nomination Lettre</a></li>
+<li><a href="https://algeria.blsspainglobal.com">Annulez Votre Rendez-Vous</a></li>
+</ul>
+</li>
+
+</ul><ul id="flexmenu2" class="flexdropdownmenu jqflexmenu" style="visibility: visible; z-index: 1001; left: 587.325px; top: 100.8px; display: none;">
+<li><a href="customer_experience.php">Suggestions Et Plaintes</a></li>
+<li><a href="additionalservices.php">Services supplémentaires</a></li>
+<li><a href="public_holidays.php">Jours Fériés/Fermeture</a></li>
+<li><a href="useful_links.php">Liens utiles et</a></li>
+<li><a href="security_rules.php">Réglement De Sécurité</a></li>
+</ul><ul id="flexmenu4" class="flexdropdownmenu jqflexmenu" style="z-index: 1000; display: none; visibility: visible;">
+<li><a href="faq-covid-19.php">FAQs : Covid-19</a></li>
+<li><a href="faq.php">FAQs</a></li>
+</ul></body></html>
